@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "title": "Introduction to Web Development",
+      "authorName": "John Doe",
+      "authorImageAvatar": "https://images.unsplash.com/photo-1511367461989-f85a21fda167?w=200&h=200&fit=crop",
+      "courseThumbnail": "https://images.unsplash.com/photo-1559028012-481c0d16b7b2?w=300&h=200&fit=crop",
+      "postDate": "2024-10-01",
+      "readingTime": "10 min",
+      "hasTag": ["Web Development", "HTML", "CSS"],
+      "imageLink": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=400&fit=crop"
+    },
+    {
+      "id": 2,
+      "title": "Advanced React Techniques",
+      "authorName": "Jane Smith",
+      "authorImageAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop",
+      "courseThumbnail": "https://images.unsplash.com/photo-1556761175-129418cb2dfe?w=300&h=200&fit=crop",
+      "postDate": "2024-09-25",
+      "readingTime": "15 min",
+      "hasTag": ["React", "JavaScript", "Frontend"],
+      "imageLink": "https://i.ibb.co.com/8cCsHW9/2.png"
+    },
+    {
+      "id": 3,
+      "title": "Mastering Python for Data Science",
+      "authorName": "Alice Johnson",
+      "authorImageAvatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=200&h=200&fit=crop",
+      "courseThumbnail": "https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?w=300&h=200&fit=crop",
+      "postDate": "2024-08-12",
+      "readingTime": "20 min",
+      "hasTag": ["Python", "Data Science", "Machine Learning"],
+      "imageLink": "https://i.ibb.co.com/RPMdWDF/hitesh-choudhary-D9-Zow2-REm8-U-unsplash.jpg"
+    },
+    {
+      "id": 4,
+      "title": "UI/UX Design Essentials",
+      "authorName": "Michael Brown",
+      "authorImageAvatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop",
+      "courseThumbnail": "https://images.unsplash.com/photo-1559028012-481c0d16b7b2?w=300&h=200&fit=crop",
+      "postDate": "2024-07-30",
+      "readingTime": "12 min",
+      "hasTag": ["UI/UX", "Design", "Prototyping"],
+      "imageLink": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=400&fit=crop"
+    },
+    {
+      "id": 5,
+      "title": "Getting Started with Cloud Computing",
+      "authorName": "Sarah Lee",
+      "authorImageAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&h=200&fit=crop",
+      "courseThumbnail": "https://images.unsplash.com/photo-1564866657315-99b39a57ba41?w=300&h=200&fit=crop",
+      "postDate": "2024-06-15",
+      "readingTime": "18 min",
+      "hasTag": ["Cloud Computing", "AWS", "DevOps"],
+      "imageLink": "https://images.unsplash.com/photo-1556155092-490a1ba16284?w=800&h=400&fit=crop"
+    }
+  ]
+  
