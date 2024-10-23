@@ -1,7 +1,8 @@
+/* eslint-disable react/prop-types */
 import propTypes from 'prop-types'
 import { IoMdBookmark } from "react-icons/io";
 
-const Blog = ({blog, handleBookMarks}) => {
+const Blog = ({blog, handleBookMarks, handleReadingTime}) => {
     const{imageLink, title, hasTag, authorImageAvatar, authorName, postDate, readingTime} = blog;
     return (
         <div className='mt-6'>
@@ -17,7 +18,7 @@ const Blog = ({blog, handleBookMarks}) => {
                 </div>
 
                 <div className='flex gap-1 items-center'>
-                    <p className='text-base text-gray-400'>{readingTime} </p>
+                    <p className='text-base text-gray-400'>{readingTime} min</p>
                     <button onClick={()=>handleBookMarks(blog)} className='text-xl'><IoMdBookmark></IoMdBookmark></button>
                 </div>
             </div>
@@ -30,7 +31,7 @@ const Blog = ({blog, handleBookMarks}) => {
             }
             </div>
 
-            <a className='underline text-purple-400' href="#">Mark as read</a>
+            <a onClick={()=>handleReadingTime(readingTime)} className='underline text-purple-400' href="#">Mark as read</a>
         </div>
     );
 };
