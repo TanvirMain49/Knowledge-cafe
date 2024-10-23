@@ -2,8 +2,8 @@
 import propTypes from 'prop-types'
 import { IoMdBookmark } from "react-icons/io";
 
-const Blog = ({blog, handleBookMarks, handleReadingTime}) => {
-    const{imageLink, title, hasTag, authorImageAvatar, authorName, postDate, readingTime} = blog;
+const Blog = ({ blog, handleBookMarks, handleReadingTime}) => {
+    const{id, imageLink, title, hasTag, authorImageAvatar, authorName, postDate, readingTime} = blog;
     return (
         <div className='mt-6'>
             <img src={imageLink} alt="" className='w-full rounded-lg'/>
@@ -31,7 +31,7 @@ const Blog = ({blog, handleBookMarks, handleReadingTime}) => {
             }
             </div>
 
-            <a onClick={()=>handleReadingTime(readingTime)} className='underline text-purple-400' href="#">Mark as read</a>
+            <a onClick={()=>handleReadingTime(id, readingTime)} className='underline text-purple-400' href="#">Mark as read</a>
         </div>
     );
 };

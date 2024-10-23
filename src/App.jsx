@@ -14,10 +14,12 @@ function App() {
     setBookMarks(newArr);
   }
 
-  const handleReadingTime = (time)=>{
-      const numTime = Number(time);
-      setReadingTime(readingTime + numTime);
-      console.log(readingTime)
+  const handleReadingTime = (id, time)=>{
+    
+      setReadingTime(readingTime + Number(time));
+      const remainingBooks = bookmarks.filter(bookmark => bookmark.id !== id)
+      setBookMarks(remainingBooks);
+
   }
   return (
     <>
